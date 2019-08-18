@@ -1,0 +1,5 @@
+Where should I siglongjmp() to when exiting from the SIGCHLD signal handler?
+
+Weird behavior when closing background processes. Not all of the processes close. Do I even have to worry about this? Should I keep track of foreground and background processes separately, and only close foreground processes when a ctrl+c is detected?
+
+When outputting to a file, should we get rid of what is already in the file first?
